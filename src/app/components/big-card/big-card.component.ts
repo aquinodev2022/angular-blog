@@ -8,11 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  photoCover:string = "" /*Colocar link da foto*/
+  photoCover:string = "https://tm.ibxk.com.br/2024/02/21/21103925397055.webp?ims=1280x480" /*Colocar link da foto*/
   @Input()
   cardTitle:string = ""
   @Input()
   cardDescription:string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 
