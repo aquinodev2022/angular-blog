@@ -1,13 +1,13 @@
 .container__big-card {
-  align-items: flex-start;
   display: flex;
-  flex-direction: column;
+  align-items: flex-start; /* Define a orientação dos itens flexíveis ao longo do eixo vertical */
+  justify-content: flex-start; /* Define a posição inicial ao longo do eixo principal */
+  flex-direction: column; /* Define a direção principal do layout dos itens como coluna */
+  width: 400px;
   height: 500px;
-  justify-content: flex-start;
   margin-left: 20px;
   margin-right: 50px;
   margin-bottom: -55px;
-  width: 400px;
 }
 
 .big-card__title > h1 {
