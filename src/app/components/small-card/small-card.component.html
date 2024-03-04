@@ -1,18 +1,20 @@
+<!-- Card menor da página, localizado no lado direito -->
 <div class="container__small-card">
+  <!-- Conteúdo do card pequeno -->
   <div class="container__small-card-content">
+    <!-- Foto do card pequeno -->
     <div class="small-card__photo">
         <img src="{{ photoCover}}"
         alt=""
         >
       </div>
-
+      <!-- Título do card pequeno -->
       <div class="small-card__title">
         <h2><a [routerLink]="['content', Id]">{{ cardtitle }}</a></h2>
       </div>
   </div>
-
+<!-- Espaçamento entre um card, de cima pra baixo -->
   <div class="container__small-card__separator">
-
   </div>
 </div>
 
