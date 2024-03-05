@@ -1,7 +1,7 @@
 export const dataFake = [
   {
-    "id": "1",
-    "title": "Google lança Gemma",
+    "id": "1", // Identificador 
+    "title": "Google lança Gemma", // Título 
     "description": `De acordo com a companhia, a Gemma é construída a partir da mesma pesquisa e tecnologia do Gemini,
                     o atual modelo de linguagem principal da empresa. Entretanto, essa é uma versão simplificada e mais
                     compacta, embora ainda seja bastante poderosa. A Gemma começa a ser disponibilizada já a partir de
@@ -9,8 +9,8 @@ export const dataFake = [
                     são pré-treinadas pelo Google e podem ser adaptadas via instruções para operar a partir de
                     especialidades, de acordo com o projeto em que ela é aplicada. As variantes da IA Gemma possuem um framework flexível e compatível com diferentes padrões de trabalho.
                      Além disso, eles contam com medidas de segurança próprias do Google, com "ajustes rigorosos" e seleções de dados revisadas.
-                     O kit de ferramentas de IA generativa "responsável" inclui uma série de ajustes já feitos, além do espaço para cada desenvolvedor adicionar os próprios parâmetros de segurança — como uma lista de palavras proibidas, por exemplo.`,
-    "photoCover": "https://dailyai.com/wp-content/uploads/2024/02/Google-Gemma.jpg"
+                     O kit de ferramentas de IA generativa "responsável" inclui uma série de ajustes já feitos, além do espaço para cada desenvolvedor adicionar os próprios parâmetros de segurança — como uma lista de palavras proibidas, por exemplo.`, // Descrição
+    "photoCover": "https://dailyai.com/wp-content/uploads/2024/02/Google-Gemma.jpg" // Foto
   },
   {
     "id": "2",
