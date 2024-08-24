@@ -12,3 +12,4 @@ export class HomeComponent implements OnInit { // Exporta a classe `HomeComponen
   ngOnInit(): void { //Executado após a inicialização do componente. Usado para buscar dados, configurar o componente
   
 }
+}

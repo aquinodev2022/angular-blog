@@ -1,8 +1,8 @@
 .container__big-card {
   display: flex;
-  align-items: flex-start; /* Define a orientação dos itens flexíveis ao longo do eixo vertical */
-  justify-content: flex-start; /* Define a posição inicial ao longo do eixo principal */
-  flex-direction: column; /* Define a direção principal do layout dos itens como coluna */
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column; 
   width: 400px;
   height: 500px;
   margin-left: 20px;
